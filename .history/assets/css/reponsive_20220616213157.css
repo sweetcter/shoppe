@@ -12,11 +12,7 @@
         z-index: 10;
         left: 0;
         right: 0;
-        top: 0;
     } 
-    .app__container {
-        margin-top: var(--header-height);
-    }
     .header__cart-list {
         position: fixed;
         top: var(--header-height);
@@ -36,7 +32,6 @@
     .header__cart {
         width: 80px;
         text-align: right;
-        
     }
 }
 /* Mobile */
