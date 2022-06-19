@@ -1087,51 +1087,38 @@
 
 .moblie-category__List {
     display: flex;
-    list-style: none;
     padding-left: 0;
+    list-style: none;
     max-width: 100%;
     overflow-x: auto;
 
 }
 .moblie-category__List::-webkit-scrollbar {
-    display: unset;
+    
 }
 .moblie-category__item {
-    flex-shrink: unset;
+   flex-shrink: unset;
 }
 
 .moblie-category__link {
     --line-height:2rem;
     text-decoration: none;
-    color:var(--white-color);
-    font-size: 1.4rem;
-    line-height: var(--line-height);
-    min-height: calc(var(--line-height) * 2);
-    text-align: center;
-    min-width: 110px;
-    overflow: hidden;
-    padding: 0 6px;
+    color:var(--text-color);
     display: block;
-    border-radius: 4px;
-    margin-right: 10px;
-    font-weight: 300;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    -webkit-user-select:none;
-       -moz-user-select:none;
-        -ms-user-select:none;
-            user-select:none;
+    line-height: var(--line-height);
+    min-height: calc(var(--line-height) * 2 );
+    width: 110px;
+    text-align: center;
     
 }
 .moblie-category__item:nth-of-type(3n + 1) .moblie-category__link  {
-    background-color: #87afd8;
+    background-color:#87afd8 ;
 } 
 .moblie-category__item:nth-of-type(3n + 2) .moblie-category__link  {
     background-color: #76c9bd;
 } 
 .moblie-category__item:nth-of-type(3n + 3) .moblie-category__link  {
-    background-color: #88cf81;
+    background-color:#88cf81;
 } 
 
 /* Home sort + filter */

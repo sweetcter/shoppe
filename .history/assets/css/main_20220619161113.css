@@ -495,7 +495,6 @@
     font-size: 2.4rem;
     padding: 0 16px;
     display: none;
-    -webkit-tap-highlight-color: transparent;
 }
 .header__moblie-menu__list {
     list-style: none;
@@ -557,9 +556,9 @@
     top: 16px;
     right: 10px;
 }
-
+.header__moblie-menu__item {
     
-
+}
 
 .header__moblie-menu-link {
     padding: 8px 0;
@@ -617,7 +616,6 @@
    position: relative;
    display: inline-block;
    padding: 0 12px;
-   -webkit-tap-highlight-color: none;
 
 }
 .header__cart-wrap:hover .header__cart-list {
@@ -778,7 +776,6 @@
     color: var(--white-color);
     margin-top: 6px;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 .header__cart-notice {
     position: absolute;
@@ -1079,11 +1076,9 @@
 
 }
 /* Moblie category */
-
 .moblie-category {
-    display: none;
-}
 
+}
 
 .moblie-category__List {
     display: flex;
@@ -1106,11 +1101,9 @@
     color:var(--white-color);
     font-size: 1.4rem;
     line-height: var(--line-height);
-    min-height: calc(var(--line-height) * 2);
+    max-height: calc(var(--line-height) * 2);
     text-align: center;
     min-width: 110px;
-    overflow: hidden;
-    padding: 0 6px;
     display: block;
     border-radius: 4px;
     margin-right: 10px;

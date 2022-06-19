@@ -42,12 +42,6 @@
     .app__content {
         margin-top: 10px;
     }
-    .moblie-category {
-        display: flex;
-    }
-    .header__logo-img {
-        width: 100px;
-    }
 }
 /* Tablet */
 @media (min-width:740px) and (max-width:1023px) {

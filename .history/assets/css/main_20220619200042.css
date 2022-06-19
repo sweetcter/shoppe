@@ -1106,11 +1106,9 @@
     color:var(--white-color);
     font-size: 1.4rem;
     line-height: var(--line-height);
-    min-height: calc(var(--line-height) * 2);
+    max-height: calc(var(--line-height) * 2);
     text-align: center;
     min-width: 110px;
-    overflow: hidden;
-    padding: 0 6px;
     display: block;
     border-radius: 4px;
     margin-right: 10px;

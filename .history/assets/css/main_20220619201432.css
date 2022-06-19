@@ -1101,6 +1101,10 @@
 }
 
 .moblie-category__link {
+    position: relative;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     --line-height:2rem;
     text-decoration: none;
     color:var(--white-color);
@@ -1110,7 +1114,6 @@
     text-align: center;
     min-width: 110px;
     overflow: hidden;
-    padding: 0 6px;
     display: block;
     border-radius: 4px;
     margin-right: 10px;

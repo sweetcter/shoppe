@@ -495,7 +495,6 @@
     font-size: 2.4rem;
     padding: 0 16px;
     display: none;
-    -webkit-tap-highlight-color: transparent;
 }
 .header__moblie-menu__list {
     list-style: none;
@@ -557,9 +556,9 @@
     top: 16px;
     right: 10px;
 }
-
+.header__moblie-menu__item {
     
-
+}
 
 .header__moblie-menu-link {
     padding: 8px 0;
@@ -617,7 +616,6 @@
    position: relative;
    display: inline-block;
    padding: 0 12px;
-   -webkit-tap-highlight-color: none;
 
 }
 .header__cart-wrap:hover .header__cart-list {
@@ -778,7 +776,6 @@
     color: var(--white-color);
     margin-top: 6px;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 .header__cart-notice {
     position: absolute;
@@ -1079,11 +1076,9 @@
 
 }
 /* Moblie category */
-
 .moblie-category {
-    display: none;
-}
 
+}
 
 .moblie-category__List {
     display: flex;
@@ -1093,36 +1088,20 @@
     overflow-x: auto;
 
 }
-.moblie-category__List::-webkit-scrollbar {
-    display: unset;
-}
+
 .moblie-category__item {
     flex-shrink: unset;
 }
 
 .moblie-category__link {
-    --line-height:2rem;
     text-decoration: none;
-    color:var(--white-color);
+    color:var(--text-color);
     font-size: 1.4rem;
-    line-height: var(--line-height);
-    min-height: calc(var(--line-height) * 2);
+    line-height: 2rem;
     text-align: center;
     min-width: 110px;
-    overflow: hidden;
-    padding: 0 6px;
+    height: 40px;
     display: block;
-    border-radius: 4px;
-    margin-right: 10px;
-    font-weight: 300;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    -webkit-user-select:none;
-       -moz-user-select:none;
-        -ms-user-select:none;
-            user-select:none;
-    
 }
 .moblie-category__item:nth-of-type(3n + 1) .moblie-category__link  {
     background-color: #87afd8;
@@ -1130,10 +1109,6 @@
 .moblie-category__item:nth-of-type(3n + 2) .moblie-category__link  {
     background-color: #76c9bd;
 } 
-.moblie-category__item:nth-of-type(3n + 3) .moblie-category__link  {
-    background-color: #88cf81;
-} 
-
 /* Home sort + filter */
 .home-filter {
     background-color: #ebebeb;
