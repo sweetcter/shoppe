@@ -132,10 +132,9 @@
     .footer__heading {
         text-align: center;
     }
-    .footer__dowload{
-        padding: 6px 8px;
+    .footer__download {
+        justify-content: center;
     }
-    .footer__dowload,
     .footer-item__link {
         justify-content: center;
     }

@@ -121,24 +121,6 @@
     .app__content {
         margin: 0 4px;
     }
-    :root {
-        --header-height:54px;
-        --navbar-height:0px;
-    }
-    .footer__download-apps {
-        flex:unset;
-    }
-    
-    .footer__heading {
-        text-align: center;
-    }
-    .footer__dowload{
-        padding: 6px 8px;
-    }
-    .footer__dowload,
-    .footer-item__link {
-        justify-content: center;
-    }
     @keyframes MobileSearchSidein {
         from{
             opacity: 0;
